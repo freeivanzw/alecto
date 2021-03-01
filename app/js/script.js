@@ -4,5 +4,8 @@ $(function(){
         $(".navigation__toggle").toggleClass("toggle-active");
     })
 
-    $(".header__slider").slick()
+    $(".header__slider").slick({
+        dots: true,
+        appendArrows:$(".header__slider"),
+    });
 });

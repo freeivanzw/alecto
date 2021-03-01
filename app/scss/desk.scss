@@ -122,6 +122,141 @@ header {
 .header__slider {
     max-width: 1380px;
     margin: 0 auto;
+    position: relative;
+
+    &.slick-slider {
+        height: 400px;
+    }
+    
+    .slick-prev {
+        font-size: 0px;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 30px;
+        height: 55px;
+        transform: translate(0, -50%);
+        z-index: 1;
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            top: 50%;
+            transform: translate(0, -50%) rotate(-45deg);
+            transform-origin: bottom left;
+            position: absolute;
+           
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            top: 50%;
+            transform: translate(0, -50%) rotate(45deg);
+            transform-origin: bottom left;
+            position: absolute;
+        }
+    }
+
+    .slick-list{
+        overflow: hidden;
+    
+        .slick-track {
+            display: flex;
+            overflow: hidden;
+        }
+    }
+
+    .slick-next {
+        font-size: 0px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 30px;
+        height: 55px;
+        transform: translate(0, -50%);
+        z-index: 1;
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            transform: translate(0, -50%) rotate(-45deg);
+            transform-origin: bottom right;
+            position: absolute;
+            top: 50%;
+            right: 0px;
+           
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            transform: translate(0, -50%) rotate(45deg);
+            transform-origin: bottom right;
+            position: absolute;
+            top: 50%;
+            right: 0px;
+        }
+    }
+
+    .slick-dots{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        
+
+        li {
+            list-style: none;
+            margin-right: 6px;
+            margin-left: 6px;
+            
+            button {
+                font-size: 0px;
+                display: block;
+                width: 10px;
+                height: 10px;
+                padding: 0px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                outline: none;
+                background-color: transparent;
+            }
+
+        }
+
+        .slick-active {
+            button {
+                background-color: #fff;
+            }
+        }
+    }
+
+    
+    
+    
 
     .header__slider-section {
         height: 400px;
@@ -165,19 +300,8 @@ header {
     }
 }
 
-.header__slider.slick-slider {
-    
-    height: 400px;
-}
 
-.slick-list{
-    overflow: hidden;
-}
 
-.slick-track {
-    display: flex;
-    overflow: hidden;
-}
 
 
 
