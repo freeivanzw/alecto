@@ -1,5 +1,15 @@
 @media (max-width: 768px) {
 
+    header {
+
+        .navigation__logo-mobile{
+            display: block;
+            position: absolute;
+            top: 15px;
+            left: 10px;
+        }
+    }
+
     $navigation-width: 200px;
 
     .navigation {
