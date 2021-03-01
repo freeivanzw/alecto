@@ -35,11 +35,15 @@
   .toggle-active::before {
     transition-duration: 300ms;
     transform: rotate(45deg);
-    top: 50%; }
+    transform-origin: bottom left;
+    left: 0px;
+    top: 5px; }
   .toggle-active::after {
     transition-duration: 300ms;
-    top: 50%;
-    transform: rotate(-45deg); }
+    transform-origin: bottom left;
+    transform: rotate(-45deg);
+    left: 0px;
+    bottom: 5px; }
   .toggle-active span {
     display: none; }
   .test__content {

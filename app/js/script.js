@@ -8,4 +8,18 @@ $(function(){
         dots: true,
         appendArrows:$(".header__slider"),
     });
+
+
+    $("a[href^='#']").click(function() {
+        const going = $(this).attr('href');
+        $("html, body").animate({scrollTop: $(going).offset().top + "px"}, 1000)
+    })
+
+    $("button[id^='#']").click(function() {
+        const going = $(this).attr('href');
+        $("html, body").animate({scrollTop: $(going).offset().top + "px"}, 1000)
+    })
+
+
+    
 });
