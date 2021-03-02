@@ -138,6 +138,7 @@ header {
         height: 2px;
         background-color: rgb(255, 255, 255);
         transition-duration: 300ms;
+        border: 1px solid black;
     }
 
     &::after{
@@ -149,13 +150,15 @@ header {
         height: 2px;
         background-color: rgb(255, 255, 255);
         transition-duration: 300ms;
+        border: 1px solid black;
     }
     
     span {
-        display: block;
+        display: inline-block;
         width: 40px;
-        height: 2px;
+        height: 4px;
         background-color: rgb(255, 255, 255);
+        border: 1px solid black;
     }
 }
 
@@ -585,6 +588,7 @@ header {
     background-size: cover;
     background-position: center;
     
+    
 
     .worker__slider {
         position: relative;
@@ -643,6 +647,7 @@ header {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    outline: none;
     
                     img {
                         width: 104px;

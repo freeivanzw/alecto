@@ -37,13 +37,15 @@
     transform: rotate(45deg);
     transform-origin: bottom left;
     left: 0px;
-    top: 5px; }
+    top: 5px;
+    border: none; }
   .toggle-active::after {
     transition-duration: 300ms;
     transform-origin: bottom left;
     transform: rotate(-45deg);
     left: 0px;
-    bottom: 5px; }
+    bottom: 5px;
+    border: none; }
   .toggle-active span {
     display: none; }
   .test__content {
