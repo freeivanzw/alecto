@@ -9,6 +9,11 @@ $(function(){
         appendArrows:$(".header__slider"),
     });
 
+    $(".worker__slider").slick({
+        dots: true,
+        appendArrows:$(".worker__slider"),
+    })
+
 
     $("a[href^='#']").click(function() {
         const going = $(this).attr('href');

@@ -552,6 +552,143 @@ header {
     .laptop .laptop__img img {
       height: auto; }
 
+.worker {
+  padding-top: 190px;
+  padding-bottom: 280px;
+  background-image: url(../img/poaple-backgraund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .worker .worker__slider {
+    position: relative; }
+    .worker .worker__slider .slick-prev {
+      font-size: 0px;
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      margin: 0px;
+      padding: 0px;
+      width: 30px;
+      height: 55px;
+      transform: translate(0, -50%);
+      z-index: 1;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+      .worker .worker__slider .slick-prev::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        top: 50%;
+        transform: translate(0, -50%) rotate(-45deg);
+        transform-origin: bottom left;
+        position: absolute; }
+      .worker .worker__slider .slick-prev::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        top: 50%;
+        transform: translate(0, -50%) rotate(45deg);
+        transform-origin: bottom left;
+        position: absolute; }
+    .worker .worker__slider .slick-list {
+      overflow: hidden; }
+      .worker .worker__slider .slick-list .slick-track {
+        display: flex; }
+        .worker .worker__slider .slick-list .slick-track .worker__section {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .worker .worker__slider .slick-list .slick-track .worker__section img {
+            width: 104px;
+            height: 104px; }
+          .worker .worker__slider .slick-list .slick-track .worker__section h2 {
+            font-family: "Raleway";
+            font-weight: 300;
+            font-size: 30px;
+            color: #fff;
+            margin-top: 40px;
+            margin-bottom: 30px; }
+            .worker .worker__slider .slick-list .slick-track .worker__section h2 span {
+              font-family: "Raleway";
+              font-weight: 300;
+              color: #17daa3; }
+          .worker .worker__slider .slick-list .slick-track .worker__section p {
+            font-family: "Raleway";
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            opacity: 0.5; }
+    .worker .worker__slider .slick-next {
+      font-size: 0px;
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      margin: 0px;
+      padding: 0px;
+      width: 30px;
+      height: 55px;
+      transform: translate(0, -50%);
+      z-index: 1;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+      .worker .worker__slider .slick-next::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        transform: translate(0, -50%) rotate(-45deg);
+        transform-origin: bottom right;
+        position: absolute;
+        top: 50%;
+        right: 0px; }
+      .worker .worker__slider .slick-next::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        transform: translate(0, -50%) rotate(45deg);
+        transform-origin: bottom right;
+        position: absolute;
+        top: 50%;
+        right: 0px; }
+    .worker .worker__slider .slick-arrow {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+    .worker .worker__slider .slick-dots {
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      bottom: -120px;
+      left: 50%;
+      transform: translate(-50%, 0); }
+      .worker .worker__slider .slick-dots li {
+        list-style: none;
+        margin-right: 6px;
+        margin-left: 6px; }
+        .worker .worker__slider .slick-dots li button {
+          font-size: 0px;
+          display: block;
+          width: 10px;
+          height: 10px;
+          padding: 0px;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          outline: none;
+          background-color: transparent; }
+      .worker .worker__slider .slick-dots .slick-active button {
+        background-color: #fff; }
+
 @media (max-width: 768px) {
   header .navigation__logo-mobile {
     display: block;

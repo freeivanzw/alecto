@@ -577,3 +577,189 @@ header {
     }
 }
 
+.worker {
+    padding-top: 190px;
+    padding-bottom: 280px;
+    background-image: url(../img/poaple-backgraund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    .worker__slider {
+        position: relative;
+
+        .slick-prev {
+            font-size: 0px;
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            margin: 0px;
+            padding: 0px;
+            width: 30px;
+            height: 55px;
+            transform: translate(0, -50%);
+            z-index: 1;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+    
+            
+    
+            &::before {
+                content: "";
+                display: block;
+                width: 40px;
+                height: 2px;
+                background-color: #fff;
+                top: 50%;
+                transform: translate(0, -50%) rotate(-45deg);
+                transform-origin: bottom left;
+                position: absolute;
+               
+            }
+    
+            &::after {
+                content: "";
+                display: block;
+                width: 40px;
+                height: 2px;
+                background-color: #fff;
+                top: 50%;
+                transform: translate(0, -50%) rotate(45deg);
+                transform-origin: bottom left;
+                position: absolute;
+            }
+        }
+    
+        .slick-list {
+            overflow: hidden;
+    
+            .slick-track{
+                display: flex;
+    
+                .worker__section{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+    
+                    img {
+                        width: 104px;
+                        height: 104px;
+                    }
+                    
+    
+                    h2 {
+                        font-family: "Raleway";
+                        font-weight: 300;
+                        font-size: 30px;
+                        color: #fff;
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+    
+                        span {
+                            font-family: "Raleway";
+                            font-weight: 300;
+                            color: #17daa3; 
+                        }
+                    }
+    
+                    p {
+                        font-family: "Raleway";
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #fff;
+                        opacity: 0.5;
+                    }
+    
+                    
+                }
+            }
+        }
+
+        .slick-next {
+            font-size: 0px;
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            margin: 0px;
+            padding: 0px;
+            width: 30px;
+            height: 55px;
+            transform: translate(0, -50%);
+            z-index: 1;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+    
+            &::before {
+                content: "";
+                display: block;
+                width: 40px;
+                height: 2px;
+                background-color: #fff;
+                transform: translate(0, -50%) rotate(-45deg);
+                transform-origin: bottom right;
+                position: absolute;
+                top: 50%;
+                right: 0px;
+               
+            }
+    
+            &::after {
+                content: "";
+                display: block;
+                width: 40px;
+                height: 2px;
+                background-color: #fff;
+                transform: translate(0, -50%) rotate(45deg);
+                transform-origin: bottom right;
+                position: absolute;
+                top: 50%;
+                right: 0px;
+            }
+        }
+    
+        .slick-arrow{
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .slick-dots{
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            bottom: -120px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            
+    
+            li {
+                list-style: none;
+                margin-right: 6px;
+                margin-left: 6px;
+                
+                button {
+                    font-size: 0px;
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0px;
+                    border-radius: 50%;
+                    border: 2px solid #fff;
+                    outline: none;
+                    background-color: transparent;
+                }
+            }
+    
+            .slick-active {
+                button {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
