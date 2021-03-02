@@ -184,6 +184,8 @@ header {
         outline: none;
         cursor: pointer;
 
+        
+
         &::before {
             content: "";
             display: block;
@@ -263,6 +265,10 @@ header {
         }
     }
 
+    .slick-arrow{
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
     .slick-dots{
         display: flex;
         justify-content: center;
@@ -336,6 +342,7 @@ header {
             border-radius: 50px;
             outline: none;
             color: #fff;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
     }
 }
@@ -458,8 +465,6 @@ header {
     .camera__img {
         width: 50%;
         max-width: 740px;
-        display: flex;
-        align-items: center;
         
         img {
             width: 100%;
@@ -511,5 +516,64 @@ header {
     }
 }
 
+.laptop {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
 
+    .laptop__content {
+        width: 50%;
+        max-width: 740px;
+
+        h2 {
+            font-family: "Raleway";
+            font-weight: 200;
+            font-size: 60px;
+            color: #576671;
+            margin: 0px;
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-family: "Proxima-Nova";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            color: #87949e;
+            padding-right: 10px;
+            margin: 0px;
+            max-width: 720px;
+        }
+
+        .laptop__more {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+            width: 185px;
+            height: 50px;
+            background-color: #17daa3;
+            border-radius: 25px;
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+
+        }
+    }
+
+    .laptop__img {
+        width: 50%;
+        max-width: 740px;
+        display: flex;
+        justify-content: center;
+        
+        
+        img {
+            height: auto;
+        }
+    }
+}
 
