@@ -448,7 +448,68 @@ header {
     }
 }
 
+.camera {
+    background-color: #f9f9fa;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
 
+    .camera__img {
+        width: 50%;
+        max-width: 740px;
+        display: flex;
+        align-items: center;
+        
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+
+    .camera__content {
+        width: 50%;
+        max-width: 740px;
+
+        h2 {
+            font-family: "Raleway";
+            font-weight: 200;
+            font-size: 60px;
+            color: #576671;
+            margin: 0px;
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-family: "Proxima-Nova";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            color: #87949e;
+            padding-right: 10px;
+            margin: 0px;
+            max-width: 720px;
+        }
+
+        .camera__more {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+            width: 185px;
+            height: 50px;
+            background-color: #17daa3;
+            border-radius: 25px;
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+
+        }
+    }
+}
 
 
 
