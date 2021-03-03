@@ -1,0 +1,16 @@
+<svg id="Portfolio" xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #17daa3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="47" cy="47" r="47"/>
+  <path id="Portfolio-2" data-name="Portfolio" class="cls-2" d="M320,4726.39v-3a2,2,0,0,0-2-1.99H306a1.994,1.994,0,0,0-2,1.99v3h-6a1.994,1.994,0,0,0-2,1.99v18.97a2,2,0,0,0,2,2h28a2,2,0,0,0,2-2v-18.97a2,2,0,0,0-2-1.99h-6Zm-13-2h10v2H307v-2Zm18,4.99v5.99H315v-1h-6v1H299v-5.99h26Zm-26,16.97v-7.98h10v0.99h6v-0.99h10v7.98H299Z" transform="translate(-265 -4688)"/>
+</svg>

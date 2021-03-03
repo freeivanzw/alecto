@@ -1,0 +1,16 @@
+<svg id="Branding" xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #17daa3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="47" cy="47" r="47"/>
+  <path id="Branding-2" data-name="Branding" class="cls-2" d="M326,5003H306a2,2,0,0,0-2,2v6h-6a2,2,0,0,0-2,2v20a2,2,0,0,0,2,2h20a2,2,0,0,0,2-2v-6h6a2,2,0,0,0,2-2v-20A2,2,0,0,0,326,5003Zm-9,29H299v-18h5v11a2,2,0,0,0,2,2h11v5Zm8-8H307v-18h18v18Z" transform="translate(-265 -4972)"/>
+</svg>
