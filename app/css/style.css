@@ -938,7 +938,7 @@ header {
       color: #87949e;
       line-height: 36px;
       margin: 0px; }
-    .agents .agents__info button {
+    .agents .agents__info a {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -954,6 +954,41 @@ header {
       text-decoration: none;
       outline: none;
       border: none; }
+
+.master {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 270px;
+  padding-bottom: 270px;
+  background-image: url("../img/agents-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #fff; }
+  .master h2 {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 60px;
+    margin: 0px; }
+    .master h2 strong {
+      font-weight: 700; }
+  .master a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    width: 185px;
+    height: 50px;
+    background-color: #17daa3;
+    border-radius: 25px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none; }
 
 @media (max-width: 768px) {
   header .navigation__logo-mobile {

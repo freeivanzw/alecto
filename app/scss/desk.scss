@@ -1079,7 +1079,7 @@ header {
             margin: 0px;
         }
 
-        button {
+        a {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1096,11 +1096,47 @@ header {
             outline: none;
             border: none;
         }
-    }
-    
-
-        
-        
-    
+    } 
 }
 
+.master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 270px;
+    padding-bottom: 270px;
+    background-image: url("../img/agents-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff;
+
+    h2 {
+        font-family: "Raleway";
+        font-weight: 200;
+        font-size: 60px;
+        margin: 0px;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        width: 185px;
+        height: 50px;
+        background-color: #17daa3;
+        border-radius: 25px;
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+}
