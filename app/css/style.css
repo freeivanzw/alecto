@@ -231,7 +231,7 @@ header {
     height: 2px;
     background-color: white;
     transition-duration: 300ms;
-    border: 1px solid black; }
+    border: 1px solid #87949e; }
   .navigation__toggle::after {
     content: "";
     display: block;
@@ -241,13 +241,13 @@ header {
     height: 2px;
     background-color: white;
     transition-duration: 300ms;
-    border: 1px solid black; }
+    border: 1px solid #87949e; }
   .navigation__toggle span {
     display: inline-block;
     width: 40px;
     height: 4px;
     background-color: white;
-    border: 1px solid black; }
+    border: 1px solid #87949e; }
 
 .header__slider {
   max-width: 1380px;
