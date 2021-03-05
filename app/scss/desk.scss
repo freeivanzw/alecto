@@ -1046,3 +1046,61 @@ header {
         }
     }
 }
+
+.agents {
+    box-sizing: content-box;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 195px;
+    background-image: url("../img/map.png");
+    background-position: 100% center;
+    background-size: 50% ;
+    background-repeat: no-repeat;
+
+    .agents__info {
+        z-index: 1;
+        width: 47%;
+
+        h2 {
+            font-family: "Raleway";
+            font-weight: 200;
+            font-size: 60px;
+            color: #576671;
+            margin-top: 0px;
+            margin-bottom: 70px;
+        }
+        
+        p {
+            font-family: "Proxima-Nova";
+            font-weight: 400;
+            font-size: 18px;
+            color: #87949e;
+            line-height: 36px;
+            margin: 0px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+            width: 185px;
+            height: 50px;
+            background-color: #17daa3;
+            border-radius: 25px;
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+            border: none;
+        }
+    }
+    
+
+        
+        
+    
+}
+
