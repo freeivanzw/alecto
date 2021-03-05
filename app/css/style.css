@@ -207,6 +207,8 @@ header {
         font-weight: 700;
         font-size: 14px;
         text-transform: uppercase; }
+        .navigation .navigation__menu .navigation__item a:hover {
+          opacity: 0.8; }
 
 .navigation__toggle {
   display: none;
@@ -334,6 +336,8 @@ header {
       right: 0px; }
   .header__slider .slick-arrow {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+    .header__slider .slick-arrow:hover {
+      opacity: 0.5; }
   .header__slider .slick-dots {
     display: flex;
     justify-content: center;
@@ -389,6 +393,8 @@ header {
       outline: none;
       color: #fff;
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+      .header__slider .header__slider-section a:hover {
+        opacity: 0.8; }
 
 .about {
   padding-top: 110px;
@@ -433,6 +439,8 @@ header {
     font-size: 14px;
     color: #fff;
     text-decoration: none; }
+    .about .about__more:hover {
+      opacity: 0.8; }
 
 .about__holder {
   display: flex;
@@ -518,6 +526,8 @@ header {
       font-size: 14px;
       color: #fff;
       text-decoration: none; }
+      .camera .camera__content .camera__more:hover {
+        opacity: 0.8; }
 
 .laptop {
   display: flex;
@@ -558,6 +568,8 @@ header {
       font-size: 14px;
       color: #fff;
       text-decoration: none; }
+      .laptop .laptop__content .laptop__more:hover {
+        opacity: 0.8; }
   .laptop .laptop__img {
     width: 50%;
     max-width: 740px;
@@ -681,6 +693,8 @@ header {
         right: 0px; }
     .worker .worker__slider .slick-arrow {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+      .worker .worker__slider .slick-arrow:hover {
+        opacity: 0.5; }
     .worker .worker__slider .slick-dots {
       display: flex;
       justify-content: center;
@@ -916,7 +930,11 @@ header {
         font-size: 18px;
         letter-spacing: 7px;
         display: flex;
-        align-items: center; }
+        align-items: center;
+        outline: none;
+        cursor: pointer; }
+        .prising .prising__inner .prising__section button:hover {
+          opacity: 0.8; }
 
 .agents {
   box-sizing: content-box;
@@ -960,6 +978,8 @@ header {
       text-decoration: none;
       outline: none;
       border: none; }
+      .agents .agents__info a:hover {
+        opacity: 0.8; }
 
 .master {
   display: flex;
@@ -995,6 +1015,8 @@ header {
     text-decoration: none;
     outline: none;
     border: none; }
+    .master a:hover {
+      opacity: 0.8; }
 
 footer {
   height: 170px;
@@ -1036,6 +1058,8 @@ footer {
       footer .footer__menu li a {
         color: #87949e;
         text-decoration: none; }
+        footer .footer__menu li a:hover {
+          opacity: 1; }
     footer .footer__menu .footer__menu-active {
       opacity: 1; }
 

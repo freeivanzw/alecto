@@ -117,6 +117,10 @@ header {
                 font-weight: 700;
                 font-size: 14px;
                 text-transform: uppercase;
+
+                &:hover {
+                    opacity: 0.8;
+                }
             }
         }
     }
@@ -279,6 +283,10 @@ header {
 
     .slick-arrow{
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
 
     .slick-dots{
@@ -356,6 +364,10 @@ header {
             outline: none;
             color: #fff;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+            &:hover {
+                opacity: 0.8;
+            }
         }
     }
 }
@@ -410,6 +422,10 @@ header {
         font-size: 14px;
         color: #fff;
         text-decoration: none;
+
+        &:hover {
+            opacity: 0.8;
+        }
 
     }
 }
@@ -525,6 +541,10 @@ header {
             color: #fff;
             text-decoration: none;
 
+            &:hover {
+                opacity: 0.8;
+            }
+
         }
     }
 }
@@ -574,6 +594,10 @@ header {
             font-size: 14px;
             color: #fff;
             text-decoration: none;
+
+            &:hover {
+                opacity: 0.8;
+            }
 
         }
     }
@@ -743,6 +767,10 @@ header {
     
         .slick-arrow{
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            
+            &:hover {
+                opacity: 0.5;
+            }
         }
 
         .slick-dots{
@@ -1048,6 +1076,12 @@ header {
                 letter-spacing: 7px;
                 display: flex;
                 align-items: center;
+                outline: none;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
             }
         }
     }
@@ -1101,6 +1135,10 @@ header {
             text-decoration: none;
             outline: none;
             border: none;
+
+            &:hover {
+                opacity: 0.8;
+            }
         }
     } 
 }
@@ -1144,6 +1182,10 @@ header {
         text-decoration: none;
         outline: none;
         border: none;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }
 
@@ -1191,9 +1233,15 @@ footer {
             padding-left: 60px;
             opacity: 0.5;
 
+            
+
             a {
                 color: #87949e;
                 text-decoration: none;
+
+                &:hover {
+                    opacity: 1;
+                }
             }
         }
 
