@@ -1190,6 +1190,11 @@ footer {
             list-style: none;
             padding-left: 60px;
             opacity: 0.5;
+
+            a {
+                color: #87949e;
+                text-decoration: none;
+            }
         }
 
         .footer__menu-active {

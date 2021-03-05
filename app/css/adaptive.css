@@ -167,3 +167,95 @@
     text-align: center; }
   footer .footer__menu li {
     padding-left: 10px; } }
+
+@media (max-width: 575px) {
+  .header__slider .header__slider-section h1, .header__slider .header__slider-section h2 {
+    font-size: 35px !important; }
+  .header__slider .header__slider-section span {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 200;
+    font-size: 18px; }
+  .camera .camera__content {
+    width: 80%; }
+  .laptop .laptop__content {
+    width: 80%;
+    padding-left: 0px; }
+    .laptop .laptop__content h2 {
+      font-size: 45px; }
+  .worker {
+    height: 100vh;
+    padding-top: 23vh;
+    padding-bottom: 23vh; }
+  .section h2 {
+    margin-top: 0px; }
+  .section .section__inner {
+    margin-top: 60px;
+    padding-right: 0px;
+    width: 100%; }
+    .section .section__inner .section__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0px;
+      width: 100%;
+      min-width: 0px; }
+      .section .section__inner .section__content svg {
+        position: static; }
+      .section .section__inner .section__content p {
+        text-align: center;
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px; }
+  .team .team__title {
+    text-align: center;
+    font-size: 45px !important;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .team .team__list .team__section {
+    width: 25%; }
+  .prising {
+    padding-bottom: 50px; }
+    .prising .prising__inner {
+      margin-top: 20px; }
+      .prising .prising__inner .prising__section {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px; }
+        .prising .prising__inner .prising__section p {
+          margin-top: 30px;
+          padding-top: 30px;
+          padding-left: 10px;
+          padding-right: 10px; }
+  .agents {
+    padding-top: 100px;
+    padding-bottom: 60px; }
+    .agents .agents__inner {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%; }
+      .agents .agents__inner .agents__info {
+        width: 100%; }
+        .agents .agents__inner .agents__info h2 {
+          text-align: center;
+          font-size: 50px; }
+        .agents .agents__inner .agents__info p {
+          padding: 0px; }
+  .master h2 {
+    font-size: 30px; }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto; }
+    footer h4 {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    footer .footer__menu {
+      padding-right: 0px;
+      flex-direction: column;
+      align-items: center; }
+      footer .footer__menu li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 0px; } }

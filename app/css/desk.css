@@ -923,5 +923,8 @@ footer {
       list-style: none;
       padding-left: 60px;
       opacity: 0.5; }
+      footer .footer__menu li a {
+        color: #87949e;
+        text-decoration: none; }
     footer .footer__menu .footer__menu-active {
       opacity: 1; }
