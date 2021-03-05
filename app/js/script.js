@@ -7,11 +7,27 @@ $(function(){
     $(".header__slider").slick({
         dots: true,
         appendArrows:$(".header__slider"),
+        responsive: [
+            {
+              breakpoint: 997,
+              settings: {
+                arrows: false,
+              }
+            }
+        ]
     });
 
     $(".worker__slider").slick({
         dots: true,
         appendArrows:$(".worker__slider"),
+        responsive: [
+            {
+              breakpoint: 997,
+              settings: {
+                arrows: false,
+              }
+            }
+        ]
     })
 
 

@@ -133,8 +133,9 @@ body {
   padding-right: 10px; }
 
 header {
-  padding-top: 300px;
-  height: 1068px;
+  padding-top: 28vh;
+  height: 100vh;
+  min-height: 730px;
   color: #fff;
   background-image: url("./../img/header-background.png");
   background-repeat: no-repeat;
@@ -365,7 +366,8 @@ header {
       font-family: "Raleway";
       font-weight: 100;
       font-size: 60px;
-      margin: 0px; }
+      margin: 0px;
+      text-align: center; }
     .header__slider .header__slider-section span {
       font-family: "Proxima-Nova";
       font-weight: 300;
@@ -739,6 +741,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1400px;
     margin-top: 130px; }
     .section .section__inner .section__content {
       max-width: 700px;
@@ -806,7 +809,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 110px; }
+    margin-top: 110px;
+    max-width: 2000px; }
     .team .team__list .team__section {
       max-width: 400px;
       width: 20%;
@@ -857,6 +861,7 @@ header {
       margin-left: 15px;
       margin-right: 15px;
       padding-top: 40px;
+      padding-bottom: 100px;
       min-height: 585px;
       background-color: #fff;
       position: relative; }
@@ -1031,12 +1036,56 @@ footer {
     footer .footer__menu .footer__menu-active {
       opacity: 1; }
 
+@media (max-width: 1500px) {
+  .header__slider .slick-prev {
+    left: 50px; }
+  .header__slider .slick-next {
+    right: 50px; }
+  .worker .worker__slider .slick-prev {
+    left: 50px; }
+  .worker .worker__slider .slick-next {
+    right: 50px; }
+  .section .section__inner {
+    padding-right: 20px; }
+  footer .footer__menu {
+    padding-right: 20px; } }
+
+@media (max-width: 1199px) {
+  .header__slider .slick-prev {
+    left: 25px; }
+  .header__slider .slick-next {
+    right: 25px; }
+  .worker .worker__slider .slick-prev {
+    left: 25px; }
+  .worker .worker__slider .slick-next {
+    right: 25px; }
+  .prising .prising__inner {
+    flex-wrap: wrap; }
+    .prising .prising__inner .prising__section {
+      max-width: 40%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .laptop .laptop__img img {
+    object-fit: contain; } }
+
+@media (max-width: 997px) {
+  .about {
+    padding-bottom: 70px; }
+    .about .about__holder {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .about .about__holder .about__section {
+        width: 40%;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+  .camera .camera__img {
+    display: none; }
+  .laptop .laptop__img {
+    display: none; } }
+
 @media (max-width: 768px) {
-  header .navigation__logo-mobile {
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: 10px; }
   .navigation {
     margin: 0px;
     width: 200px;
@@ -1081,5 +1130,78 @@ footer {
     border: none; }
   .toggle-active span {
     display: none; }
-  .test__content {
-    padding-top: 60px; } }
+  header .navigation__logo-mobile {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 10px; }
+  header .header__slider .slick-list .slick-track .header__slider-section h1, header .header__slider .slick-list .slick-track .header__slider-section h2 {
+    font-size: 50px; }
+  .about .about__title {
+    font-size: 50px; }
+  .about .about__subtitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center; }
+  .about .about__holder .about__section {
+    margin-top: 75px;
+    width: 100%; }
+    .about .about__holder .about__section h3 {
+      margin-top: 37px;
+      margin-bottom: 15px; }
+  .camera {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  .laptop {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .laptop h2 {
+      font-size: 50px;
+      text-align: center; }
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .section h2 {
+      font-size: 50px; }
+    .section .section__subtitle {
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center; }
+    .section .section__inner .section__content h3 {
+      font-size: 50px; }
+  .worker__section {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .team__subtitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center; }
+  .prising .prising__subtitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center; }
+  .prising .prising__inner .prising__section {
+    max-width: 80%; }
+  .agents {
+    background-image: none; }
+    .agents .agents__inner {
+      width: 80%;
+      display: flex;
+      justify-content: center; }
+      .agents .agents__inner .agents__info {
+        width: 100%; }
+        .agents .agents__inner .agents__info p {
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px; }
+  .master {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .master h2 {
+      font-size: 50px; }
+  footer h4 {
+    text-align: center; }
+  footer .footer__menu li {
+    padding-left: 10px; } }
