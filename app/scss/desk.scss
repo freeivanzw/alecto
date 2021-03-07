@@ -123,6 +123,17 @@ header {
                 }
             }
         }
+
+        .navigation__item-active {
+
+            a {
+                cursor: default;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
     }
 }
 

@@ -209,6 +209,10 @@ header {
         text-transform: uppercase; }
         .navigation .navigation__menu .navigation__item a:hover {
           opacity: 0.8; }
+    .navigation .navigation__menu .navigation__item-active a {
+      cursor: default; }
+      .navigation .navigation__menu .navigation__item-active a:hover {
+        opacity: 1; }
 
 .navigation__toggle {
   display: none;

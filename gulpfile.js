@@ -32,7 +32,20 @@ function imagemin () {
     .pipe(gulp.dest("./app/img"));
 };
 
+function build () {
+    return gulp.src([
+        "./app/css/style.min.css",
+        "./app/fonts/**/*",
+        "./app/img/**/*",
+        "./app/js/*.js",
+        "./app/*.html",
+    ], {base: "app"})
+    .pipe(gulp.dest("./dist"))
+    
+};
+
 exports.scss = scss;
 exports.watch = watch;          // scss в css наблюдение
 exports.cssmin = gulp.series(cleener, scss, cssmin) ;        // css минимизацыя
 exports.imagemin = imagemin;    // минимизацыя изображений
+exports.build = gulp.series(scss, imagemin, cssmin, build) ; 
