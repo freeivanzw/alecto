@@ -1238,6 +1238,8 @@ footer {
     padding-left: 10px; } }
 
 @media (max-width: 575px) {
+  header {
+    background-image: url("./../img/header-background-mobile.png"); }
   .header__slider .header__slider-section h1, .header__slider .header__slider-section h2 {
     font-size: 35px !important; }
   .header__slider .header__slider-section span {
@@ -1293,6 +1295,8 @@ footer {
           padding-top: 30px;
           padding-left: 10px;
           padding-right: 10px; }
+  .worker {
+    background-image: url("../img/poaple-backgraund-mobile.png"); }
   .agents {
     padding-top: 100px;
     padding-bottom: 60px; }
@@ -1307,8 +1311,10 @@ footer {
           font-size: 50px; }
         .agents .agents__inner .agents__info p {
           padding: 0px; }
-  .master h2 {
-    font-size: 30px; }
+  .master {
+    background-image: url("../img/agents-background-mobile.png"); }
+    .master h2 {
+      font-size: 30px; }
   footer {
     flex-direction: column;
     align-items: center;

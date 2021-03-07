@@ -10,6 +10,7 @@
     }
 
     .worker {
+        
         .worker__slider {
             .slick-prev {
                 left: 50px;
@@ -356,6 +357,12 @@
 
 @media (max-width: 575px) {
 
+    header {
+        background-image: url("./../img/header-background-mobile.png");
+    }
+
+    
+
     .header__slider {
         .header__slider-section {
             h1,h2 {
@@ -460,6 +467,11 @@
         }
     }
 
+    .worker {
+        background-image: url("../img/poaple-backgraund-mobile.png");
+    }
+
+
     .agents  {
         padding-top: 100px;
         padding-bottom: 60px;
@@ -485,6 +497,8 @@
     }
 
     .master {
+        background-image: url("../img/agents-background-mobile.png");
+
         h2 {
             font-size: 30px;
         }
